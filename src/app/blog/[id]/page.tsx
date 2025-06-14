@@ -8,7 +8,7 @@ type Props = {
 };
 
 const BlogDetailPage = ({ params }: Props) => {
-     const blogs: Blogs[] = [
+     const blogs = [
         {
           id: 1,
           name: "The Rise of JavaScript in Modern Web Development",
